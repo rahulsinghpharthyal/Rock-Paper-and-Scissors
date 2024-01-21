@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    background-color: white;
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+    padding: 10PX;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+body{
+    background-color: #C9ADA1;
+    text-align: center;
+}
+ 
+#rock:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    background-color: black;
+}
+
+#paper:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    background-color: black;
+}
+
+#scissors:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    background-color: black;
+}
+
+
+.container{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7vmin;
+    
+}
+
+#rock{
+    height: 30vmin;
+    width: 30vmin;
+    border-radius: 200vmin;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 8vmin;
+    color: #F45D01;
+    background-color: #A9F0D1;
+}
+
+#paper{
+    height: 30vmin;
+    width: 30vmin;
+    border-radius: 200vmin;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 8vmin;
+    color: #F45D01;
+    background-color: #A9F0D1;
+}
+
+#scissors{
+   height: 30vmin;
+    width: 30vmin;
+    border-radius: 200vmin;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 8vmin;
+    color: #F45D01;
+    background-color: #A9F0D1; 
+}
+
+.score-board{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        margin: 3rem;
+        gap: 5rem;
+}
+
+#user-score, #comp-score{
+    font-size: 3rem;
+}
+
+
+#msg{
+    background-color: black;
+    color: oldlace;
+    font-size: 1.9rem;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 1rem;
+}
